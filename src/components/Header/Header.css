@@ -1,0 +1,26 @@
+*{
+    font-family: lato;
+}
+
+.headerNav {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.headerNav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+
+}
+.headerNav a:hover {
+    background-color: tomato;
+    border-radius: 3px;
+    padding: 5px;
+} 
