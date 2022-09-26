@@ -14,7 +14,7 @@ const Shop = () => {
     },[]);
 
     const handleAddToCart = (product) => {
-        console.log(product);
+        // console.log(product);
         // cart.push(product); 
         //copy Array for make new Array
         const newCart = [...cart, product];
@@ -27,7 +27,8 @@ const Shop = () => {
             <div className="product-container">
 
                     {
-                        products.map(product => <Product
+                        products.map(product =>
+                             <Product
 
                              key={product.id}
                              product={product}
