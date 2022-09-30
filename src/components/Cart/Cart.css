@@ -3,3 +3,70 @@
     top: 0;
     padding: 30px 20px;
 }
+.name-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.my-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.personal-details2 {
+    display: flex;
+    background-color: rgb(248, 214, 219);
+    padding: 0 0 0 15px;
+    border-radius: 10px;
+    gap: 45px;
+}
+
+.btn-item {
+    gap: 10px;
+    display: flex;
+    background-color: rgb(248, 214, 219) ;
+    padding:15px;
+    border-radius: 10px;
+}
+.bnt-1,.bnt-2,.bnt-3,.bnt-4,.bnt-5{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(241, 233, 233);
+    margin-left: 5px;
+}
+.exercis{
+    margin-top: 50px;
+}
+.time {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(243, 217, 221) ;
+    padding: 0 0 0 15px;
+    border-radius: 10px;
+}  
+.time2{
+    display: flex;
+    gap: 50px;
+    background-color: rgb(243, 217, 221) ;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 0 0 0 15px;
+}     
+.btn-Completed {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(96, 96, 216);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 80px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+.btn-Completed:hover {
+    background-color: purple;
+
+}
+

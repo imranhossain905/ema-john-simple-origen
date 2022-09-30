@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+.head-container {
+  background-color: rgb(228, 214, 216);
+}
+.head-text {
+  color: orange;
+  font-size:50px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding-top: 50px;
+  gap: 10px;
+}
+.Gym-text {
+  color: tomato;
+ margin-left: 45px;
+ 
+
+}

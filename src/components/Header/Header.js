@@ -1,19 +1,18 @@
 import React from 'react';
-import logo from '../../images/Logo.svg'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import './Header.css'
  
 
 const Header = () => {
     return (
-        <nav className='headerNav'>
-            <img src= {logo} alt="" />
-            <div>
-               <a href="/shop">Shop</a>
-               <a href="/orders">Orders</a>
-               <a href="/inventory">Inventory</a>
-               <a href="/about">About Us</a> 
-            </div>
-        </nav>
+        
+ <div>
+    
+ </div>
+        
+         
         
     );
 };

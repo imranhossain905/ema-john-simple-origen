@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Prayer full day",
+    "description": "Prayer is an invocation or act that seeks to activate a rapport...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://www.madeenah.com/wp-content/uploads/praying-salah-with-shoulders-uncovered.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Gym",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 35,
+    "img": "https://i.ytimg.com/vi/gey73xiS8F4/maxresdefault.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Reading",
+    "description": "Reading is the process of taking in the sense or meaning of letters...",
+    "age": "22-30",
+    "time": 60,
+    "img": "https://blog.pearsoninternationalschools.com/wp-content/uploads/2020/01/AL1331618_Original_1800x900-1132x670.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Playing",
+    "description": "Playing definition: the act of taking part in a game or sport...",
+    "age": "22-30",
+    "time": 180,
+    "img": "https://media.istockphoto.com/photos/group-of-small-kids-having-fun-while-playing-in-nature-picture-id638620778?k=20&m=638620778&s=170667a&w=0&h=Ba954gZGfGUc5lf528uvqQFz3azNmrZUEAdGfqqcC2k="
+  },
+  {
+    "id": "1",
+    "title": "Office",
+    "description": "Experienced professionals Want to make a difference? So do we...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://compass-ssl.microsoft.com/assets/f9/4c/f94c2916-6a4e-4cbc-9bc1-9f0e0f4ee46c.png?n=ioc_home_bottomleft_4up_491x276.png"
+  },
+  {
+    "id": "1",
+    "title": "Meeting",
+    "description": "a planned occasion when people come together, either in person...",
+    "age": "22-30",
+    "time": 25,
+    "img": "https://www.targettraining.eu/wp-content/uploads/2019/02/meetings-practice-1030x613.jpg"
+  }
+]

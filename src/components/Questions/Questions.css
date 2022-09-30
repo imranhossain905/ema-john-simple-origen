@@ -1,0 +1,18 @@
+.Q-container {
+    background-color: lightblue;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+
+.head-text {
+    padding: 20px;
+}
+
+.Ques {
+    padding: 10px;
+}
+
+.p-text {
+    /* margin: 0 auto; */
+    padding: 20px;
+}

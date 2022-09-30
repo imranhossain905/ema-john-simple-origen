@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "arm Gym",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://www.bodybuilding.com/images/2017/february/the-4-best-biceps-machine-exercises-1-700xh.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Treadmill",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://static.sportzbusiness.com/uploads/2020/05/Treadmill-workout.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Rowing Machines For Cardio ",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://i.ytimg.com/vi/IKF58NombkQ/maxresdefault.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Rollers",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://cdn.mos.cms.futurecdn.net/Y52WyN3yHoPVGWgRUF2kYJ-415-80.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Cycleing",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://i.ytimg.com/vi/S0nRkf5wU5U/maxresdefault.jpg"
+  },
+  {
+    "id": "1",
+    "title": "Dumbbel",
+    "description": "A gymnasium, also known as a gym, is a covered location for athletics...",
+    "age": "22-30",
+    "time": 30,
+    "img": "https://cdn.muscleandstrength.com/sites/default/files/dumbbell_only_full_body_-_1200x630.jpg"
+  }
+]

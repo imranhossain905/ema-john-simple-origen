@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { addToDb, getStoredCart } from '../../../utilities/fakedb';
 import Cart from '../../Cart/Cart';
 import Product from '../../Product/Product';
+import Questions from '../../Questions/Questions';
 import './Shop.css'
 
 const Shop = () => {
@@ -9,8 +10,8 @@ const Shop = () => {
     const [cart, setCart] = useState([])
 
     useEffect( () =>{
-        const url = ('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-resources/main/fakeData/products.json')
-        fetch(url)
+    
+        fetch('Product.json')
         .then(res => res.json())
         .then(data => setProducts(data))
 
@@ -36,12 +37,12 @@ const Shop = () => {
         let newCart = [];
         const exists = cart.find(product => product.id === selectedProduct.id);
         if(!exists){
-            selectedProduct.quantity = 1;
+            selectedProduct.quantity = 30;
             newCart = [...cart, selectedProduct];
         }
         else{
             const rest = cart.filter(product => product.id !== selectedProduct.id);
-            exists.quantity = exists.quantity + 1;
+            exists.quantity = exists.quantity + 30;
             newCart = [...rest, exists];
         }
         
@@ -63,14 +64,19 @@ const Shop = () => {
                              key={product.id}
                              product={product}
                              handleAddToCart={handleAddToCart}
-                
-                             ></Product>)   
+                                
+                             ></Product>) 
+                              
                     }
-
+                    <div className="question">
+                    <Questions></Questions>
+                    </div>
             </div>
+            
 
             <div className="cart-container">
                 <Cart  cart={cart}></Cart>
+                
             </div>
 
         </div>
